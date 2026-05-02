@@ -43,6 +43,7 @@ ESC - Quit game
 ## Project Structure
 
 Snake_game/
+
 ├── game.py                          # Main game file
 
 ├── assets/
