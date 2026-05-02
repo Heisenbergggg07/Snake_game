@@ -9,6 +9,7 @@ A Python-based Snake game built using Pygame featuring smooth gameplay, dynamic 
 - [How to Run](#how-to-run)
 - [Project Structure](#-project-structure)
 - [Assets Required](#-assets-required)
+- [Screenshots](#screenshots)
 - [Troubleshooting](#-troubleshooting)
 
 ## Features
@@ -42,25 +43,24 @@ ESC - Quit game
 
 ## Project Structure
 
-Snake_game/
+Snake_game
 
-├── game.py                          # Main game file
+├── game.py                    # Main game file
 
-├── assets/
+├── python_logo.png           # Food image
 
-│   ├── python_logo.png             # Game logo/icon
+├── eat.wav                    # Sound effect for eating
 
-│   ├── eat.wav                     # Sound effect for eating
+├── gameover.wav              # Sound effect for game over
 
-│   ├── gameover.wav                # Sound effect for game over
 
-│   └── screenshots/
+├── screenshots/              # Game screenshots for README
 
-│       ├── start_screen.png        # Start screen screenshot
+│   ├── start_screen.png
 
-│       ├── gameplay.png            # Gameplay screenshot
+│   ├── gameplay.png
 
-│       └── gameover_screen.png     # Game over screen screenshot
+│   └── gameover_screen.png
 
 └── README.md                        # This file
 
@@ -72,7 +72,7 @@ Snake_game/
 | `eat.wav` | Audio | Sound when snake eats food |
 | `gameover.wav` | Audio | Sound when game ends |
 
-**Screenshots** :
+## Screenshots :
 - `start_screen.png` 
 - `gameplay.png` 
 - `gameover_screen.png` 
@@ -82,9 +82,8 @@ Snake_game/
 | Issue | Solution |
 |-------|----------|
 | `ModuleNotFoundError: No module named 'pygame'` | Run `pip install pygame` |
-| No sound effects playing | Verify `.wav` files are in `assets/` directory and paths are correct |
+| No sound effects playing | Verify `eat.wav` and `gameover.wav` files are in the root directory |
 | Game runs slowly or stutters | Close other applications or reduce screen resolution |
-| Assets not loading (black screen) | Check that image and audio files are in correct directory paths |
 | Game window won't open | Ensure Pygame is properly installed: `pip install --upgrade pygame` |
 
 
