@@ -44,14 +44,23 @@ ESC - Quit game
 
 Snake_game/
 ├── game.py                          # Main game file
+
 ├── assets/
+
 │   ├── python_logo.png             # Game logo/icon
+
 │   ├── eat.wav                     # Sound effect for eating
+
 │   ├── gameover.wav                # Sound effect for game over
+
 │   └── screenshots/
+
 │       ├── start_screen.png        # Start screen screenshot
+
 │       ├── gameplay.png            # Gameplay screenshot
+
 │       └── gameover_screen.png     # Game over screen screenshot
+
 └── README.md                        # This file
 
 ## Assets Required
