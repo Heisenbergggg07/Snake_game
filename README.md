@@ -72,10 +72,17 @@ Snake_game
 | `eat.wav` | Audio | Sound when snake eats food |
 | `gameover.wav` | Audio | Sound when game ends |
 
-## Screenshots :
-- `start_screen.png` 
-- `gameplay.png` 
-- `gameover_screen.png` 
+##  Screenshots
+
+### Start Screen
+![Start](Screenshots/start_screen.png)
+
+### Gameplay
+![Gameplay](Screenshots/gameplay.png)
+
+### Game Over
+![Game Over](Screenshots/gameover_screen.png)
+
 
 ## Troubleshooting
 
